@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Social Democratic Alliance - For the Republic</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+
+  <script>
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme !== 'light') {
+      document.documentElement.classList.add('dark-theme');
+    }
+  </script>
+  <script src="translations.js?v=1.2" defer></script>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <meta property="og:title" content="Social Democratic Alliance">
+  <meta property="og:description" content="For the Republic. For the People.">
+  <meta property="og:image" content="https://uumeet-zade.github.io/sdapage/link_preview.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Social Democratic Alliance">
+  <meta name="twitter:description" content="For the Republic. For the People.">
+  <meta name="twitter:image" content="https://uumeet-zade.github.io/sdapage/link_preview.png">
+</head>
+<body>
+  <nav>
+    <a href="index.html" class="nav-brand" style="text-decoration: none; color: inherit;">
+      <img class="nav-logo"
+        src="SDAlogo.svg"
+        alt="Social Democratic Alliance Logo" />
+      <span class="nav-name" data-i18n="nav-brand-name">Social Democratic Alliance</span>
+      
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" data-i18n="nav-home">Home</a></li>
+      <li><a href="platform.html" data-i18n="nav-platform">Platform</a></li>
+      <li><a href="events.html" class="active">Campaigning</a></li>
+      <li class="lang-switcher">
+        <button class="lang-toggle" aria-label="Change Language">
+          <span class="lang-current">AL</span>
+        </button>
+        <div class="lang-dropdown">
+          <button class="lang-option active" data-lang="al">Alanian</button>
+          <button class="lang-option" data-lang="ga">Gallic</button>
+          <button class="lang-option" data-lang="ac">Alcamerian</button>
+          <button class="lang-option" data-lang="ra">Rälandic</button>
+          <button class="lang-option" data-lang="my">Myrati</button>
+          <button class="lang-option" data-lang="au">Austrumish</button>
+          <button class="lang-option" data-lang="le">Leislandic</button>
+        </div>
+      </li>
+      <li><a href="#" class="theme-toggle" onclick="toggleTheme(event)" title="Toggle Night Mode">🌗</a></li>
+    </ul>
+  </nav>
+  <section class="page-header" style="margin-top: 60px;">
+    <h1 data-i18n="events-header-title">On the Trail</h1>
+    <p data-i18n="events-header-desc">Follow Aldric von Reichel on the campaign trail as we bring the Anti-Big Corp platform to every corner of Chasmia.</p>
+  </section>
+
+  <section class="page-section" style="padding: 20px 5% 40px; text-align: center;">
+    <h2 class="section-title" data-i18n="events-campaign-material">Campaign Material</h2>
+    <div class="poster-placeholder" style="width: 100%; max-width: 900px; min-height: 500px; margin: 0 auto; background: var(--glass-bg); border: 2px dashed var(--border-color); border-radius: var(--radius-lg); display: flex; flex-direction: column; align-items: center; justify-content: center; color: var(--text-muted); box-shadow: var(--shadow-sm); overflow: hidden; position: relative;">
+      
+      <!-- Replace the src below when the poster is ready -->
+      <!-- <img src="your-poster-file.jpg" alt="Campaign Poster" style="width: 100%; height: auto; object-fit: contain;"> -->
+      
+      <svg viewBox="0 0 24 24" width="48" height="48" style="margin-bottom: 15px; opacity: 0.5;"><path fill="currentColor" d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-5.04-6.71l-2.75 3.54-1.96-2.36L6.5 17h11l-3.54-4.71z"/></svg>
+      <div style="font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em;" data-i18n="events-poster-reserved">Reserved for Incoming Poster</div>
+      <div style="font-size: 0.85rem; opacity: 0.8; margin-top: 8px;" data-i18n="events-poster-hint">(Any resolution - image will adapt to fit)</div>
+    </div>
+  </section>
+
+  <section class="news-section">
+    <div class="news-grid">
+      <!-- Article 1 -->
+      <article class="news-card" style="display: flex; flex-direction: column; justify-content: space-between;">
+        <div>
+          <h2 class="news-title" data-i18n="events-card1-title">"Every Stall, Every Stop" in Morrick</h2>
+          <p class="news-excerpt" data-i18n="events-card1-desc">Aldric von Reichel visits the Morrick market district, speaking directly to local vendors like Halvard Meich and Ilena Draksa. He outlines his Anti-Big Corp platform, promising real anti-monopoly protection and tax relief that actually targets small businesses rather than just big chains.</p>
+        </div>
+        <div style="margin-top: 20px;">
+          <a href="event-morrick.html" class="btn-outline" style="text-decoration: none; display: inline-block; font-size: 0.9rem; padding: 8px 16px;" data-i18n="events-read-full">Read Full Story</a>
+        </div>
+      </article>
+
+      <!-- Article 2 -->
+      <article class="news-card" style="display: flex; flex-direction: column; justify-content: space-between;">
+        <div>
+          <h2 class="news-title" data-i18n="events-card2-title">The Line that Stays Rural</h2>
+          <p class="news-excerpt" data-i18n="events-card2-desc">In the rural town of Littlewood, Aldric meets with local farmers and Mayor Bertrand to discuss the High-Speed Rail plan. He addresses concerns that the rail line will skip them, committing to making rural towns vital nodes that connect local producers to wider markets.</p>
+        </div>
+        <div style="margin-top: 20px;">
+          <a href="event-littlewood.html" class="btn-outline" style="text-decoration: none; display: inline-block; font-size: 0.9rem; padding: 8px 16px;" data-i18n="events-read-full">Read Full Story</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <footer>
+      <div class="footer-brand">
+        <img
+          src="SDAlogo.svg"
+          alt="Social Democratic Alliance" />
+        <div class="footer-brand-text">
+          <div class="footer-name" data-i18n="footer-name">Social Democratic Alliance</div>
+          <div class="footer-motto" data-i18n="footer-motto">For the Republic. For the People.</div>
+        </div>
+      </div>
+      <div class="footer-copy" data-i18n="footer-copy">
+        Upcoming Elections · Caprica<br />
+        Social Democratic Alliance
+      </div>
+    </footer>
+  <a href="#" class="floating-cta" data-i18n="floating-cta">Join the Alliance</a>
+
+  <script>
+    function toggleTheme(e) {
+      if (e) e.preventDefault();
+      const html = document.documentElement;
+      if (html.classList.contains('dark-theme')) {
+        html.classList.remove('dark-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        html.classList.add('dark-theme');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>
