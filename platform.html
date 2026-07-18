@@ -30,16 +30,15 @@
 <body>
   <nav>
     <a href="index.html" class="nav-brand" style="text-decoration: none; color: inherit;">
-      <img class="nav-logo"
-        src="SDAlogo.svg"
-        alt="Social Democratic Alliance Logo" />
-      <span class="nav-name" data-i18n="nav-brand-name">Social Democratic Alliance</span>
+      <img class="nav-logo logo-light" src="SDAlogo.svg" alt="Social Democratic Alliance Logo" />
+      <img class="nav-logo logo-dark" src="SDAlogo-dark.svg" alt="Social Democratic Alliance Logo" />
+      <span class="nav-name" data-i18n="nav-name">Social Democratic Alliance</span>
       
     </a>
     <ul class="nav-links">
       <li><a href="index.html" data-i18n="nav-home">Home</a></li>
       <li><a href="platform.html" class="active" data-i18n="nav-platform">Platform</a></li>
-      <li><a href="events.html">Campaigning</a></li>
+      <li><a href="events.html" data-i18n="nav-campaigning">Campaigning</a></li>
       <li class="lang-switcher">
         <button class="lang-toggle" aria-label="Change Language">
           <span class="lang-current">AL</span>
@@ -59,77 +58,68 @@
   </nav>
   
   
-      <div class="marquee-container">
-    <div class="marquee-content">
-      <span data-i18n="marquee">FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • </span>
-    </div>
-    <div class="marquee-content" aria-hidden="true">
-      <span data-i18n="marquee">FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • FOR THE REPUBLIC. FOR THE PEOPLE. • </span>
-    </div>
-  </div>
 
-  <section class="page-header" style="margin-top: 60px;">
-    <h1 data-i18n="plat-header-title">The Anti-Big Corp Platform</h1>
-    <p data-i18n="plat-header-desc">We are building an economy that rewards those who build it - by hand and by brain. Not the monopolies that exploit us.</p>
+
+  <section class="page-header" style="margin-top: 80px; text-align: center; animation: fadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;">
+    <h1 data-i18n="plat-title" style=" font-size: 4.5rem;">The Cambria Platform</h1>
+    <p data-i18n="plat-desc" style="margin: 0 auto; font-size: 1.25rem; max-width: 600px;">We are building an economy that rewards those who build it, by hand and by brain, ending the exploitation by monopolies.</p>
   </section>
 
-  <section class="pillars" style="padding-top: 0; border-top: none;">
-    <div class="pillars-grid">
-      <div class="pillar">
-        <div class="pillar-icon">
-          <svg viewBox="0 0 24 24" width="24" height="24"><path d="M12 2L2 7l10 5 10-5-10-5zm0 14.5l-10-5v2l10 5 10-5v-2l-10 5z"/></svg>
-        </div>
-        <h3 class="pillar-title" data-i18n="pillar-1-title">Real Anti-Monopoly Protection</h3>
-        <p class="pillar-text" data-i18n="pillar-1-desc">We will enact strict anti-monopoly laws to prevent retail chains from undercutting local businesses with predatory pricing. This isn't a subsidy that can be cut, it's a structural rule that ensures a fair playing field for everyone.</p>
+  <section class="bento-grid" style="position: relative; z-index: 5; padding-top: 0;">
+    <div class="bento-item bento-third" style="cursor: pointer; padding: 24px; display: flex; flex-direction: row; align-items: center; gap: 20px; justify-content: flex-start; min-height: 120px;" onclick="openModal('modal-anti-monopoly')">
+      <svg viewBox="0 0 24 24" width="36" height="36" fill="var(--primary)" style="flex-shrink: 0;"><path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z"/></svg>
+      <div>
+        <h3 data-i18n="plat-b1-t" style="font-size: 1.2rem; margin-bottom: 4px; font-family: 'Outfit', sans-serif; ">Anti-Monopoly Enforcement</h3>
+        <p data-i18n="plat-b1-d" style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.4; margin: 0;">Automatic review triggers for mergers to protect local suppliers.</p>
       </div>
+    </div>
 
-      <div class="pillar">
-        <div class="pillar-icon">
-          <svg viewBox="0 0 24 24" width="24" height="24"><path d="M3 3h18v2H3zm0 16h18v2H3zm0-8h18v2H3z"/></svg>
-        </div>
-        <h3 class="pillar-title" data-i18n="pillar-2-title">Tax Relief for Small Enterprises</h3>
-        <p class="pillar-text" data-i18n="pillar-2-desc">We promise tax relief specifically targeting small businesses and market stalls. Instead of blanket cuts that only help big players, our plan ensures the backbone of our community gets the support it needs to thrive and grow.</p>
+    <div class="bento-item bento-third" style="cursor: pointer; padding: 24px; display: flex; flex-direction: row; align-items: center; gap: 20px; justify-content: flex-start; min-height: 120px;" onclick="openModal('modal-regional')">
+      <svg viewBox="0 0 24 24" width="36" height="36" fill="var(--primary)" style="flex-shrink: 0;"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+      <div>
+        <h3 data-i18n="plat-b2-t" style="font-size: 1.2rem; margin-bottom: 4px; font-family: 'Outfit', sans-serif; ">Regional Contracts</h3>
+        <p data-i18n="plat-b2-d" style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.4; margin: 0;">Minimum terms by sector preventing predatory agreements.</p>
       </div>
+    </div>
 
-      <div class="pillar">
-        <div class="pillar-icon">
-          <svg viewBox="0 0 24 24" width="24" height="24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 2.18l7 3.12v4.7c0 4.67-3.13 8.89-7 10-3.87-1.11-7-5.33-7-10V6.3l7-3.12z"/></svg>
-        </div>
-        <h3 class="pillar-title" data-i18n="pillar-3-title">High-Speed Rail for Rural Nodes</h3>
-        <p class="pillar-text" data-i18n="pillar-3-desc">Our infrastructure plan connects rural communities directly to the wider network. Towns like Littlewood will become vital nodes, allowing local producers to reach city markets in hours, without abandoning their roots.</p>
+    <div class="bento-item bento-third" style="cursor: pointer; padding: 24px; display: flex; flex-direction: row; align-items: center; gap: 20px; justify-content: flex-start; min-height: 120px;" onclick="openModal('modal-rail')">
+      <svg viewBox="0 0 24 24" width="36" height="36" fill="var(--primary)" style="flex-shrink: 0;"><path d="M12 2c-4.42 0-8 .5-8 4v9.5C4 17.43 5.57 19 7.5 19L6 20.5v.5h12v-.5L16.5 19c1.93 0 3.5-1.57 3.5-3.5V6c0-3.5-3.58-4-8-4zM7.5 17c-.83 0-1.5-.67-1.5-1.5S6.67 14 7.5 14s1.5.67 1.5 1.5S8.33 17 7.5 17zm3.5-7H6V6h5v4zm4 0V6h5v4h-5zm1.5 7c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/></svg>
+      <div>
+        <h3 data-i18n="plat-b3-t" style="font-size: 1.2rem; margin-bottom: 4px; font-family: 'Outfit', sans-serif; ">High-Speed Rail Node</h3>
+        <p data-i18n="plat-b3-d" style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.4; margin: 0;">Dedicated connection retaining local zoning authority.</p>
       </div>
+    </div>
 
-      <div class="pillar">
-        <div class="pillar-icon">
-          <svg viewBox="0 0 24 24" width="24" height="24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
-        </div>
-        <h3 class="pillar-title" data-i18n="pillar-4-title">Empowering Local Producers</h3>
-        <p class="pillar-text" data-i18n="pillar-4-desc">By providing the infrastructure and fair rules, small vendors and local artisans will have the reach big chains already possess. Growth shouldn't mean leaving your town; it should mean thriving within it.</p>
+    <div class="bento-item bento-third" style="cursor: pointer; padding: 24px; display: flex; flex-direction: row; align-items: center; gap: 20px; justify-content: flex-start; min-height: 120px;" onclick="openModal('modal-rnd')">
+      <svg viewBox="0 0 24 24" width="36" height="36" fill="var(--primary)" style="flex-shrink: 0;"><path d="M9 21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1zm3-19C8.14 2 5 5.14 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.86-3.14-7-7-7z"/></svg>
+      <div>
+        <h3 data-i18n="plat-b4-t" style="font-size: 1.2rem; margin-bottom: 4px; font-family: 'Outfit', sans-serif; ">Cambrian R&D Center</h3>
+        <p data-i18n="plat-b4-d" style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.4; margin: 0;">Regional center prioritizing local soil, crops, and talent.</p>
       </div>
+    </div>
 
-      <div class="pillar">
-        <div class="pillar-icon">
-          <svg viewBox="0 0 24 24" width="24" height="24"><path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/></svg>
-        </div>
-        <h3 class="pillar-title" data-i18n="pillar-5-title">Union Labor Guarantee on Rail Infrastructure</h3>
-        <p class="pillar-text" data-i18n="pillar-5-desc">All High-Speed Rail construction and operations jobs prioritize unionized labor. This turns the connectivity plan into a direct jobs program for organized workers alongside expanding our transit network.</p>
+    <div class="bento-item bento-third" style="cursor: pointer; padding: 24px; display: flex; flex-direction: row; align-items: center; gap: 20px; justify-content: flex-start; min-height: 120px;" onclick="openModal('modal-freight')">
+      <svg viewBox="0 0 24 24" width="36" height="36" fill="var(--primary)" style="flex-shrink: 0;"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm13.5-9l1.96 2.5H17V9.5h2.5zm-1.5 9c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/></svg>
+      <div>
+        <h3 data-i18n="plat-b5-t" style="font-size: 1.2rem; margin-bottom: 4px; font-family: 'Outfit', sans-serif; ">Freight Capacity</h3>
+        <p data-i18n="plat-b5-d" style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.4; margin: 0;">Timed to local harvest and production cycles.</p>
       </div>
+    </div>
 
-      <div class="pillar">
-        <div class="pillar-icon">
-          <svg viewBox="0 0 24 24" width="24" height="24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
-        </div>
-        <h3 class="pillar-title" data-i18n="pillar-6-title">Stronger Collective Bargaining Protections</h3>
-        <p class="pillar-text" data-i18n="pillar-6-desc">We will establish legal safeguards preventing employers from bypassing or dissolving unions, with real enforcement behind the right to organize and strike.</p>
+    <div class="bento-item bento-third" style="cursor: pointer; padding: 24px; display: flex; flex-direction: row; align-items: center; gap: 20px; justify-content: flex-start; min-height: 120px;" onclick="openModal('modal-bargaining')">
+      <svg viewBox="0 0 24 24" width="36" height="36" fill="var(--primary)" style="flex-shrink: 0;"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+      <div>
+        <h3 data-i18n="plat-b6-t" style="font-size: 1.2rem; margin-bottom: 4px; font-family: 'Outfit', sans-serif; ">Collective Bargaining</h3>
+        <p data-i18n="plat-b6-d" style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.4; margin: 0;">Real enforcement behind the right to organize and strike.</p>
       </div>
     </div>
   </section>
 
   <footer>
+    <div class="footer-container">
       <div class="footer-brand">
-        <img
-          src="SDAlogo.svg"
-          alt="Social Democratic Alliance" />
+        <img class="logo-light" src="SDAlogo.svg" alt="Social Democratic Alliance" />
+        <img class="logo-dark" src="SDAlogo-dark.svg" alt="Social Democratic Alliance" />
         <div class="footer-brand-text">
           <div class="footer-name" data-i18n="footer-name">Social Democratic Alliance</div>
           <div class="footer-motto" data-i18n="footer-motto">For the Republic. For the People.</div>
@@ -139,10 +129,98 @@
         Upcoming Elections · Caprica<br />
         Social Democratic Alliance
       </div>
-    </footer>
-  <a href="#" class="floating-cta" data-i18n="floating-cta">Join the Alliance</a>
+    </div>
+  </footer>
+
+
+  <!-- Modals -->
+  <div class="modal-backdrop" id="modal-anti-monopoly" onclick="closeModal(event, 'modal-anti-monopoly')">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal(null, 'modal-anti-monopoly')">&times;</button>
+      <div class="modal-header">
+        <h3 data-i18n="plat-b1-mt" style="font-family: 'Outfit', sans-serif;">Anti-Monopoly Enforcement</h3>
+      </div>
+      <div class="modal-body">
+        <p data-i18n="plat-b1-md" style="font-style: italic; color: var(--text-muted); font-size: 1.1rem; line-height: 1.7;">"People who'd actually notice three delivery firms becoming one, before the paperwork was finalized instead of after, when it is late to fix it... This law would establish the door into monopolies slower. And a slower door is time you don't currently have."</p>
+        <p data-i18n="plat-quote-author" style="margin-top: 10px; font-weight: 600; text-align: right;">- Aldric von Reichel</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="modal-regional" onclick="closeModal(event, 'modal-regional')">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal(null, 'modal-regional')">&times;</button>
+      <div class="modal-header">
+        <h3 style="font-family: 'Outfit', sans-serif;">Regional Contract Protections</h3>
+      </div>
+      <div class="modal-body">
+        <p data-i18n="plat-b2-md" style="font-style: italic; color: var(--text-muted); font-size: 1.1rem; line-height: 1.7;">"Minimum contract terms set by sector, renegotiated with regional input rather than dictated by whoever has the largest share of the route in question. A buyer can still choose not to work with you. They cannot use the absence of alternatives as leverage to set terms below that floor."</p>
+        <p data-i18n="plat-quote-author" style="margin-top: 10px; font-weight: 600; text-align: right;">- Aldric von Reichel</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="modal-rail" onclick="closeModal(event, 'modal-rail')">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal(null, 'modal-rail')">&times;</button>
+      <div class="modal-header">
+        <h3 data-i18n="plat-b3-mt" style="font-family: 'Outfit', sans-serif;">High-Speed Rail Node</h3>
+      </div>
+      <div class="modal-body">
+        <p data-i18n="plat-b3-md" style="font-style: italic; color: var(--text-muted); font-size: 1.1rem; line-height: 1.7;">"The connection runs both ways, or it isn't worth building... Zoning and development around the node stay under Cambria's own authority, not handed to a regional planning board seated in the capital. You get the connection. You don't lose the town to it."</p>
+        <p data-i18n="plat-quote-author" style="margin-top: 10px; font-weight: 600; text-align: right;">- Aldric von Reichel</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="modal-rnd" onclick="closeModal(event, 'modal-rnd')">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal(null, 'modal-rnd')">&times;</button>
+      <div class="modal-header">
+        <h3 data-i18n="plat-b4-mt" style="font-family: 'Outfit', sans-serif;">Cambrian R&D Center</h3>
+      </div>
+      <div class="modal-body">
+        <p data-i18n="plat-b4-md" style="font-style: italic; color: var(--text-muted); font-size: 1.1rem; line-height: 1.7;">"An institution that answers to this town and its people before it answers to anyone else... Funded positions here, reserved for Cambrian applicants first, with the university stipends to make it possible for someone from this town to train and come home to something worth coming home to."</p>
+        <p data-i18n="plat-quote-author" style="margin-top: 10px; font-weight: 600; text-align: right;">- Aldric von Reichel</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="modal-freight" onclick="closeModal(event, 'modal-freight')">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal(null, 'modal-freight')">&times;</button>
+      <div class="modal-header">
+        <h3 style="font-family: 'Outfit', sans-serif;">Freight Capacity for Local Goods</h3>
+      </div>
+      <div class="modal-body">
+        <p data-i18n="plat-b5-md" style="font-style: italic; color: var(--text-muted); font-size: 1.1rem; line-height: 1.7;">"Freight capacity for the feed exchange and the textile cooperative both, timed to your harvest and production cycles rather than a fixed citywide schedule designed around the convenience of others. A stop that exists because Cambria has cargo worth stopping for, or so I believe your cargo is worth stopping for."</p>
+        <p data-i18n="plat-quote-author" style="margin-top: 10px; font-weight: 600; text-align: right;">- Aldric von Reichel</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="modal-bargaining" onclick="closeModal(event, 'modal-bargaining')">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal(null, 'modal-bargaining')">&times;</button>
+      <div class="modal-header">
+        <h3 style="font-family: 'Outfit', sans-serif;">Stronger Collective Bargaining</h3>
+      </div>
+      <div class="modal-body">
+        <p data-i18n="plat-b6-md" style="font-style: italic; color: var(--text-muted); font-size: 1.1rem; line-height: 1.7;">"Monopoly does not care whether the hand it closes belongs to a shop owner or a shift worker. It closes on both."</p>
+        <p data-i18n="plat-quote-author" style="margin-top: 10px; font-weight: 600; text-align: right;">- Aldric von Reichel</p>
+      </div>
+    </div>
+  </div>
 
   <script>
+    function openModal(id) {
+      document.getElementById(id).classList.add('active');
+    }
+    function closeModal(event, id) {
+      if (event && event.target.id !== id) return;
+      document.getElementById(id).classList.remove('active');
+    }
+    
     function toggleTheme(e) {
       if (e) e.preventDefault();
       const html = document.documentElement;
