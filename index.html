@@ -8,7 +8,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600&display=swap"
     rel="stylesheet" />
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 
   <script>
     const savedTheme = localStorage.getItem('theme');
@@ -20,20 +20,22 @@
   <link rel="icon" type="image/png" href="favicon.png">
   <meta property="og:title" content="Social Democratic Alliance">
   <meta property="og:description" content="For the Republic. For the People.">
-  <meta property="og:image" content="https://uumeet-zade.github.io/sdapage/link_preview.png">
+  <meta property="og:image" content="https://uumeet-zade.github.io/AldricForChasmia/link_preview.png">
+  <meta property="og:url" content="https://uumeet-zade.github.io/AldricForChasmia/">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Social Democratic Alliance">
   <meta name="twitter:description" content="For the Republic. For the People.">
-  <meta name="twitter:image" content="https://uumeet-zade.github.io/sdapage/link_preview.png">
+  <meta name="twitter:image" content="https://uumeet-zade.github.io/AldricForChasmia/link_preview.png">
 </head>
+
 <body>
   <nav>
     <a href="index.html" class="nav-brand" style="text-decoration: none; color: inherit;">
       <img class="nav-logo logo-light" src="SDAlogo.svg" alt="Social Democratic Alliance Logo" />
       <img class="nav-logo logo-dark" src="SDAlogo-dark.svg" alt="Social Democratic Alliance Logo" />
       <span class="nav-name" data-i18n="nav-name">Social Democratic Alliance</span>
-      
+
     </a>
     <ul class="nav-links">
       <li><a href="index.html" class="active" data-i18n="nav-home">Home</a></li>
@@ -56,22 +58,35 @@
       <li><a href="#" class="theme-toggle" onclick="toggleTheme(event)" title="Toggle Night Mode">🌗</a></li>
     </ul>
   </nav>
-  
-  
+
+
   <section class="page-section" id="home" style="margin-top: 100px;">
-    <div class="hero" style="display: flex; align-items: center; gap: 60px; text-align: left; padding: 0 5%; max-width: 1400px; margin: 0 auto; background: transparent; border: none; box-shadow: none; backdrop-filter: none;">
+    <div class="hero"
+      style="display: flex; align-items: center; gap: 60px; text-align: left; padding: 0 5%; max-width: 1400px; margin: 0 auto; background: transparent; border: none; box-shadow: none; backdrop-filter: none;">
       <div class="hero-content" style="flex: 1.2; z-index: 2;">
-        <div class="hero-eyebrow" data-i18n="idx-eyebrow" style="font-size: 1.1rem; color: var(--primary); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 20px;">Social Democratic Alliance</div>
-        <h1 class="hero-title" data-i18n="idx-hero-title" style="font-size: clamp(3.5rem, 6vw, 6rem); line-height: 1.05; margin-bottom: 24px; ">Aldric von Reichel <br/><span style="color: var(--primary);">for Cambria</span></h1>
-        <p class="hero-subtitle" data-i18n="idx-hero-sub" style="font-size: 1.35rem; line-height: 1.6; color: var(--text-muted); margin-bottom: 40px; max-width: 600px;">A campaign for the working masses. I am fighting for a Cambria where every small business can thrive and every rural town is connected - built on the unbreakable foundations of our republic.</p>
+        <div class="hero-eyebrow" data-i18n="idx-eyebrow"
+          style="font-size: 1.1rem; color: var(--primary); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 20px;">
+          Social Democratic Alliance</div>
+        <h1 class="hero-title" data-i18n="idx-hero-title"
+          style="font-size: clamp(3.5rem, 6vw, 6rem); line-height: 1.05; margin-bottom: 24px; ">Aldric von Reichel
+          <br /><span style="color: var(--primary);">for Cambria</span></h1>
+        <p class="hero-subtitle" data-i18n="idx-hero-sub"
+          style="font-size: 1.35rem; line-height: 1.6; color: var(--text-muted); margin-bottom: 40px; max-width: 600px;">
+          A campaign for the working masses. I am fighting for a Cambria where every small business can thrive and every
+          rural town is connected - built on the unbreakable foundations of our republic.</p>
         <div class="hero-buttons" style="display: flex; gap: 20px; align-items: center;">
-          <a href="platform.html" class="btn-primary" data-i18n="idx-btn-plat" style="text-decoration: none; padding: 16px 36px; font-size: 1.15rem;">The Cambria Platform</a>
-          <a href="events.html" class="btn-outline" data-i18n="idx-btn-events" style="text-decoration: none; padding: 16px 36px; font-size: 1.15rem;">On the Trail</a>
+          <a href="platform.html" class="btn-primary" data-i18n="idx-btn-plat"
+            style="text-decoration: none; padding: 16px 36px; font-size: 1.15rem;">The Cambria Platform</a>
+          <a href="events.html" class="btn-outline" data-i18n="idx-btn-events"
+            style="text-decoration: none; padding: 16px 36px; font-size: 1.15rem;">On the Trail</a>
         </div>
       </div>
-      <div class="hero-visual" style="flex: 0.8; display: flex; justify-content: center; position: relative; z-index: 2;">
-        <div style="position: relative; width: 100%; max-width: 420px; background: var(--glass-bg); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 1px solid var(--glass-border); border-radius: var(--radius-xl); overflow: hidden; display: flex; align-items: flex-end; justify-content: center; padding-top: 40px; box-shadow: 0 20px 40px rgba(0,0,0,0.2);">
-            <img src="AldricvonReichelPortraitNoBG.png" alt="Aldric von Reichel" style="width: 100%; height: auto; position: relative; z-index: 2; display: block; filter: drop-shadow(0 10px 20px rgba(0,0,0,0.3)); margin-bottom: -5px;">
+      <div class="hero-visual"
+        style="flex: 0.8; display: flex; justify-content: center; position: relative; z-index: 2;">
+        <div
+          style="position: relative; width: 100%; max-width: 420px; background: var(--glass-bg); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 1px solid var(--glass-border); border-radius: var(--radius-xl); overflow: hidden; display: flex; align-items: flex-end; justify-content: center; padding-top: 40px; box-shadow: 0 20px 40px rgba(0,0,0,0.2);">
+          <img src="AldricvonReichelPortraitNoBG.png" alt="Aldric von Reichel"
+            style="width: 100%; height: auto; position: relative; z-index: 2; display: block; filter: drop-shadow(0 10px 20px rgba(0,0,0,0.3)); margin-bottom: -5px;">
         </div>
       </div>
     </div>
@@ -79,61 +94,50 @@
 
   <section class="bento-grid" style="position: relative; z-index: 5;">
     <!-- Main Intro Card -->
-    <div class="bento-item bento-full" style="background: var(--bento-gradient); text-align: center; padding: 40px 20px;">
-      <h2 data-i18n="idx-vision-title" style="font-size: 2.5rem;  margin-bottom: 15px; font-family: 'Outfit', sans-serif;">Our Vision for Cambria</h2>
-      <p data-i18n="idx-vision-desc" style="opacity: 0.9; font-size: 1.15rem; max-width: 800px; margin: 0 auto; line-height: 1.5;">Our campaign is built on tangible commitments to the people of Cambria. From defending local businesses against monopolies and securing fair contracts, to investing in critical rail infrastructure and agricultural research, we are fighting for an economy that empowers everyone.</p>
-    </div>
-
-    <!-- 6 Campaign Promises (Compact Horizontal Layout) -->
-    <div class="bento-item bento-third" style="padding: 24px; display: flex; flex-direction: row; align-items: center; gap: 20px; justify-content: flex-start; min-height: 120px;">
-      <svg viewBox="0 0 24 24" width="36" height="36" fill="var(--primary)" style="flex-shrink: 0;"><path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z"/></svg>
-      <div>
-        <h3 data-i18n="idx-b1-t" style="font-size: 1.2rem; margin-bottom: 4px; font-family: 'Outfit', sans-serif; ">Anti-Monopoly</h3>
-        <p data-i18n="idx-b1-d" style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.4; margin: 0;">Mandatory reviews for mergers to protect local businesses.</p>
-      </div>
-    </div>
-
-    <div class="bento-item bento-third" style="padding: 24px; display: flex; flex-direction: row; align-items: center; gap: 20px; justify-content: flex-start; min-height: 120px;">
-      <svg viewBox="0 0 24 24" width="36" height="36" fill="var(--primary)" style="flex-shrink: 0;"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
-      <div>
-        <h3 data-i18n="idx-b2-t" style="font-size: 1.2rem; margin-bottom: 4px; font-family: 'Outfit', sans-serif; ">Contract Protections</h3>
-        <p data-i18n="idx-b2-d" style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.4; margin: 0;">Sector minimums to prevent predatory agreements.</p>
-      </div>
-    </div>
-
-    <div class="bento-item bento-third" style="padding: 24px; display: flex; flex-direction: row; align-items: center; gap: 20px; justify-content: flex-start; min-height: 120px;">
-      <svg viewBox="0 0 24 24" width="36" height="36" fill="var(--primary)" style="flex-shrink: 0;"><path d="M12 2c-4.42 0-8 .5-8 4v9.5C4 17.43 5.57 19 7.5 19L6 20.5v.5h12v-.5L16.5 19c1.93 0 3.5-1.57 3.5-3.5V6c0-3.5-3.58-4-8-4zM7.5 17c-.83 0-1.5-.67-1.5-1.5S6.67 14 7.5 14s1.5.67 1.5 1.5S8.33 17 7.5 17zm3.5-7H6V6h5v4zm4 0V6h5v4h-5zm1.5 7c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/></svg>
-      <div>
-        <h3 data-i18n="idx-b3-t" style="font-size: 1.2rem; margin-bottom: 4px; font-family: 'Outfit', sans-serif; ">Local Rail Node</h3>
-        <p data-i18n="idx-b3-d" style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.4; margin: 0;">Dedicated connectivity built with Cambria's zoning authority.</p>
-      </div>
-    </div>
-
-    <div class="bento-item bento-third" style="padding: 24px; display: flex; flex-direction: row; align-items: center; gap: 20px; justify-content: flex-start; min-height: 120px;">
-      <svg viewBox="0 0 24 24" width="36" height="36" fill="var(--primary)" style="flex-shrink: 0;"><path d="M9 21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1zm3-19C8.14 2 5 5.14 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.86-3.14-7-7-7z"/></svg>
-      <div>
-        <h3 data-i18n="idx-b4-t" style="font-size: 1.2rem; margin-bottom: 4px; font-family: 'Outfit', sans-serif; ">Cambrian R&D Center</h3>
-        <p data-i18n="idx-b4-d" style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.4; margin: 0;">Regional research prioritizing local soil, crops, and talent.</p>
-      </div>
-    </div>
-
-    <div class="bento-item bento-third" style="padding: 24px; display: flex; flex-direction: row; align-items: center; gap: 20px; justify-content: flex-start; min-height: 120px;">
-      <svg viewBox="0 0 24 24" width="36" height="36" fill="var(--primary)" style="flex-shrink: 0;"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm13.5-9l1.96 2.5H17V9.5h2.5zm-1.5 9c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/></svg>
-      <div>
-        <h3 data-i18n="idx-b5-t" style="font-size: 1.2rem; margin-bottom: 4px; font-family: 'Outfit', sans-serif; ">Freight Capacity</h3>
-        <p data-i18n="idx-b5-d" style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.4; margin: 0;">Timed to local harvest and production cycles.</p>
-      </div>
-    </div>
-
-    <div class="bento-item bento-third" style="padding: 24px; display: flex; flex-direction: row; align-items: center; gap: 20px; justify-content: flex-start; min-height: 120px;">
-      <svg viewBox="0 0 24 24" width="36" height="36" fill="var(--primary)" style="flex-shrink: 0;"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
-      <div>
-        <h3 data-i18n="idx-b6-t" style="font-size: 1.2rem; margin-bottom: 4px; font-family: 'Outfit', sans-serif; ">Collective Bargaining</h3>
-        <p data-i18n="idx-b6-d" style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.4; margin: 0;">Legal safeguards protecting the right to organize.</p>
-      </div>
+    <div class="bento-item bento-full"
+      style="background: var(--bento-gradient); text-align: center; padding: 40px 20px;">
+      <h2 data-i18n="idx-vision-title"
+        style="font-size: 2.5rem;  margin-bottom: 15px; font-family: 'Outfit', sans-serif;">Our Vision for Cambria</h2>
+      <p data-i18n="idx-vision-desc"
+        style="opacity: 0.9; font-size: 1.15rem; max-width: 800px; margin: 0 auto; line-height: 1.5;">Our campaign is
+        built on tangible commitments to the people of Cambria. From defending local businesses against monopolies and
+        securing fair contracts, to investing in critical rail infrastructure and agricultural research, we are fighting
+        for an economy that empowers everyone.</p>
     </div>
 
   </section>
+
+  <section class="letter-section" style="position: relative; z-index: 5; padding: 80px 5%; max-width: 900px; margin: 0 auto;">
+    <div style="text-align: center; margin-bottom: 40px;">
+      <span style="color: var(--primary); font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.9rem; display: block; margin-bottom: 10px;" data-i18n="idx-letter-eyebrow">A Message from Aldric</span>
+      <h2 data-i18n="idx-letter-title" style="font-family: 'Outfit', sans-serif; font-size: 2.8rem; margin: 0; color: var(--text-main);">A Letter to Cambria</h2>
+    </div>
+
+    <div class="letter-card" style="background: #fcfbf8; border-radius: 8px; padding: 60px 80px; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25), inset 0 0 80px rgba(0,0,0,0.02); border: 1px solid #e5e5e5; position: relative; overflow: hidden; border-top: 6px solid var(--primary);">
+      
+      <!-- Subtle quotation mark watermark -->
+      <div style="position: absolute; top: 10px; left: 30px; opacity: 0.04; font-family: 'Playfair Display', serif; font-size: 15rem; line-height: 1; color: var(--primary); user-select: none;">
+        "
+      </div>
+
+      <div style="position: relative; z-index: 2; font-family: 'Playfair Display', serif; font-size: 1.35rem; color: #2d3748; line-height: 1.8;">
+        <p data-i18n="idx-letter-p1" style="margin-bottom: 24px;">The tragedy that brought us to this by-election is a shadow over our republic. The loss of MP Richard Balls reminds us of the stakes we face. But while the politicians in Montiablo argue over power, the rural communities of Cambria are left behind.</p>
+        
+        <p data-i18n="idx-letter-p2" style="margin-bottom: 24px;">We are watching our local businesses get swallowed by monopolies. We are watching our young people leave because the investment stops at the city limits.</p>
+        
+        <p data-i18n="idx-letter-p3" style="margin-bottom: 40px; font-weight: 700; color: #1a202c;">I am running because Cambria deserves a voice that cannot be bought. We are going to build a future grounded in our own soil, protected by our own laws, and run by our own people. Join us. Let us rebuild.</p>
+        
+        <div style="margin-top: 40px; border-top: 1px solid rgba(0,0,0,0.1); padding-top: 30px; display: flex; align-items: center; gap: 20px;">
+          <img src="AldricvonReichelPortraitNoBG.png" alt="Aldric von Reichel" style="width: 70px; height: 70px; border-radius: 50%; object-fit: cover; border: 2px solid var(--primary); background: #fff;">
+          <div>
+            <div style="font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 1.3rem; color: #1a202c; line-height: 1.2;">Aldric von Reichel</div>
+            <div style="font-size: 0.95rem; color: #4a5568; font-family: 'Inter', sans-serif;">SDA Candidate for Chasmia</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <footer>
     <div class="footer-container">
@@ -167,4 +171,5 @@
     }
   </script>
 </body>
+
 </html>
