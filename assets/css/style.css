@@ -780,7 +780,7 @@ html.dark-theme .logo-dark { display: inline-block !important; }
 }
 @keyframes marquee-scroll {
   0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  100% { transform: translateX(calc(-50% - 15px)); }
 }
 
 /* 3. Entrance & Float Animations */
