@@ -234,6 +234,22 @@ fr = {
     "ld-name-sherwin": "Sherwin Hildebrand",
     "ld-name-aldric": "Aldric von Reichel",
     "ld-role-chief": "Chef de Cabinet"
+,
+    "ld-bio-label": "Biographie",
+    "ld-exp-label": "Expérience Clé",
+    "ld-focus-label": "Objectif Principal",
+    "ld-bio-florence": "[Placeholder: Florence's biography will go here]",
+    "ld-exp-florence": "[Placeholder: Florence's experience will go here]",
+    "ld-focus-florence": "[Placeholder: Florence's core focus will go here]",
+    "ld-bio-william": "[Placeholder: William's biography will go here]",
+    "ld-exp-william": "[Placeholder: William's experience will go here]",
+    "ld-focus-william": "[Placeholder: William's core focus will go here]",
+    "ld-bio-sherwin": "[Placeholder: Sherwin's biography will go here]",
+    "ld-exp-sherwin": "[Placeholder: Sherwin's experience will go here]",
+    "ld-focus-sherwin": "[Placeholder: Sherwin's core focus will go here]",
+    "ld-bio-aldric": "[Placeholder: Aldric's biography will go here]",
+    "ld-exp-aldric": "[Placeholder: Aldric's experience will go here]",
+    "ld-focus-aldric": "[Placeholder: Aldric's core focus will go here]"
 }
 
 # SPANISH (Alcamerian / ac)
@@ -410,6 +426,22 @@ es = {
     "ld-name-sherwin": "Sherwin Hildebrand",
     "ld-name-aldric": "Aldric von Reichel",
     "ld-role-chief": "Jefe de Gabinete"
+,
+    "ld-bio-label": "Biografía",
+    "ld-exp-label": "Experiencia Clave",
+    "ld-focus-label": "Enfoque Principal",
+    "ld-bio-florence": "[Placeholder: Florence's biography will go here]",
+    "ld-exp-florence": "[Placeholder: Florence's experience will go here]",
+    "ld-focus-florence": "[Placeholder: Florence's core focus will go here]",
+    "ld-bio-william": "[Placeholder: William's biography will go here]",
+    "ld-exp-william": "[Placeholder: William's experience will go here]",
+    "ld-focus-william": "[Placeholder: William's core focus will go here]",
+    "ld-bio-sherwin": "[Placeholder: Sherwin's biography will go here]",
+    "ld-exp-sherwin": "[Placeholder: Sherwin's experience will go here]",
+    "ld-focus-sherwin": "[Placeholder: Sherwin's core focus will go here]",
+    "ld-bio-aldric": "[Placeholder: Aldric's biography will go here]",
+    "ld-exp-aldric": "[Placeholder: Aldric's experience will go here]",
+    "ld-focus-aldric": "[Placeholder: Aldric's core focus will go here]"
 }
 
 # DANISH (Ralandic / ra)
@@ -586,6 +618,22 @@ da = {
     "ld-name-sherwin": "Sherwin Hildebrand",
     "ld-name-aldric": "Aldric von Reichel",
     "ld-role-chief": "Stabschef"
+,
+    "ld-bio-label": "Biografi",
+    "ld-exp-label": "Nøgleerfaring",
+    "ld-focus-label": "Kernefokus",
+    "ld-bio-florence": "[Placeholder: Florence's biography will go here]",
+    "ld-exp-florence": "[Placeholder: Florence's experience will go here]",
+    "ld-focus-florence": "[Placeholder: Florence's core focus will go here]",
+    "ld-bio-william": "[Placeholder: William's biography will go here]",
+    "ld-exp-william": "[Placeholder: William's experience will go here]",
+    "ld-focus-william": "[Placeholder: William's core focus will go here]",
+    "ld-bio-sherwin": "[Placeholder: Sherwin's biography will go here]",
+    "ld-exp-sherwin": "[Placeholder: Sherwin's experience will go here]",
+    "ld-focus-sherwin": "[Placeholder: Sherwin's core focus will go here]",
+    "ld-bio-aldric": "[Placeholder: Aldric's biography will go here]",
+    "ld-exp-aldric": "[Placeholder: Aldric's experience will go here]",
+    "ld-focus-aldric": "[Placeholder: Aldric's core focus will go here]"
 }
 
 # WELSH (Myrati / my)
@@ -762,6 +810,22 @@ cy = {
     "ld-name-sherwin": "Sherwin Hildebrand",
     "ld-name-aldric": "Aldric von Reichel",
     "ld-role-chief": "Pennaeth Staff"
+,
+    "ld-bio-label": "Bywgraffiad",
+    "ld-exp-label": "Profiad Allweddol",
+    "ld-focus-label": "Prif Ffocws",
+    "ld-bio-florence": "[Placeholder: Florence's biography will go here]",
+    "ld-exp-florence": "[Placeholder: Florence's experience will go here]",
+    "ld-focus-florence": "[Placeholder: Florence's core focus will go here]",
+    "ld-bio-william": "[Placeholder: William's biography will go here]",
+    "ld-exp-william": "[Placeholder: William's experience will go here]",
+    "ld-focus-william": "[Placeholder: William's core focus will go here]",
+    "ld-bio-sherwin": "[Placeholder: Sherwin's biography will go here]",
+    "ld-exp-sherwin": "[Placeholder: Sherwin's experience will go here]",
+    "ld-focus-sherwin": "[Placeholder: Sherwin's core focus will go here]",
+    "ld-bio-aldric": "[Placeholder: Aldric's biography will go here]",
+    "ld-exp-aldric": "[Placeholder: Aldric's experience will go here]",
+    "ld-focus-aldric": "[Placeholder: Aldric's core focus will go here]"
 }
 
 # LATVIAN (Austrumish / au)
@@ -938,6 +1002,22 @@ lv = {
     "ld-name-sherwin": "Sherwin Hildebrand",
     "ld-name-aldric": "Aldric von Reichel",
     "ld-role-chief": "Personāla Vadītājs"
+,
+    "ld-bio-label": "Biogrāfija",
+    "ld-exp-label": "Galvenā Pieredze",
+    "ld-focus-label": "Galvenā Prioritāte",
+    "ld-bio-florence": "[Placeholder: Florence's biography will go here]",
+    "ld-exp-florence": "[Placeholder: Florence's experience will go here]",
+    "ld-focus-florence": "[Placeholder: Florence's core focus will go here]",
+    "ld-bio-william": "[Placeholder: William's biography will go here]",
+    "ld-exp-william": "[Placeholder: William's experience will go here]",
+    "ld-focus-william": "[Placeholder: William's core focus will go here]",
+    "ld-bio-sherwin": "[Placeholder: Sherwin's biography will go here]",
+    "ld-exp-sherwin": "[Placeholder: Sherwin's experience will go here]",
+    "ld-focus-sherwin": "[Placeholder: Sherwin's core focus will go here]",
+    "ld-bio-aldric": "[Placeholder: Aldric's biography will go here]",
+    "ld-exp-aldric": "[Placeholder: Aldric's experience will go here]",
+    "ld-focus-aldric": "[Placeholder: Aldric's core focus will go here]"
 }
 
 # GERMAN (Leislandic / le)
@@ -1146,4 +1226,20 @@ for code, d in lang_dicts.items():
     "ld-name-sherwin": "Sherwin Hildebrand",
     "ld-name-aldric": "Aldric von Reichel",
     "ld-role-chief": "Stabschef"
+,
+    "ld-bio-label": "Biografie",
+    "ld-exp-label": "Wichtige Erfahrung",
+    "ld-focus-label": "Kernfokus",
+    "ld-bio-florence": "[Placeholder: Florence's biography will go here]",
+    "ld-exp-florence": "[Placeholder: Florence's experience will go here]",
+    "ld-focus-florence": "[Placeholder: Florence's core focus will go here]",
+    "ld-bio-william": "[Placeholder: William's biography will go here]",
+    "ld-exp-william": "[Placeholder: William's experience will go here]",
+    "ld-focus-william": "[Placeholder: William's core focus will go here]",
+    "ld-bio-sherwin": "[Placeholder: Sherwin's biography will go here]",
+    "ld-exp-sherwin": "[Placeholder: Sherwin's experience will go here]",
+    "ld-focus-sherwin": "[Placeholder: Sherwin's core focus will go here]",
+    "ld-bio-aldric": "[Placeholder: Aldric's biography will go here]",
+    "ld-exp-aldric": "[Placeholder: Aldric's experience will go here]",
+    "ld-focus-aldric": "[Placeholder: Aldric's core focus will go here]"
 } translated keys")

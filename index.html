@@ -125,6 +125,14 @@
 <div class="candidate-details">
 <div class="candidate-name" data-i18n="ld-name-florence" style="font-size: 1.5rem;">Florence Marin</div>
 <div class="candidate-role" data-i18n="ld-role-chair">Chairwoman</div>
+<div class="hidden-details" style="display: none;">
+<h4 data-i18n="ld-bio-label">Biography</h4>
+<p class="detail-bio" data-i18n="ld-bio-florence">[Placeholder: Florence's biography will go here]</p>
+<h4 data-i18n="ld-exp-label">Key Experience</h4>
+<p class="detail-exp" data-i18n="ld-exp-florence">[Placeholder: Florence's experience will go here]</p>
+<h4 data-i18n="ld-focus-label">Core Focus</h4>
+<p class="detail-focus" data-i18n="ld-focus-florence">[Placeholder: Florence's core focus will go here]</p>
+</div>
 </div>
 </div>
 </div>
@@ -134,6 +142,14 @@
 <div class="candidate-details">
 <div class="candidate-name" data-i18n="ld-name-william" style="font-size: 1.5rem;">William Smith</div>
 <div class="candidate-role" data-i18n="ld-role-deputy">Deputy Chairman</div>
+<div class="hidden-details" style="display: none;">
+<h4 data-i18n="ld-bio-label">Biography</h4>
+<p class="detail-bio" data-i18n="ld-bio-william">[Placeholder: William's biography will go here]</p>
+<h4 data-i18n="ld-exp-label">Key Experience</h4>
+<p class="detail-exp" data-i18n="ld-exp-william">[Placeholder: William's experience will go here]</p>
+<h4 data-i18n="ld-focus-label">Core Focus</h4>
+<p class="detail-focus" data-i18n="ld-focus-william">[Placeholder: William's core focus will go here]</p>
+</div>
 </div>
 </div>
 <div class="featured-candidate-card hover-float" style="width: 100%; max-width: 360px; padding: 32px; flex-direction: column; text-align: center; gap: 16px;">
@@ -141,6 +157,14 @@
 <div class="candidate-details">
 <div class="candidate-name" data-i18n="ld-name-sherwin" style="font-size: 1.5rem;">Sherwin Hildebrand</div>
 <div class="candidate-role" data-i18n="ld-role-deputy">Deputy Chairman</div>
+<div class="hidden-details" style="display: none;">
+<h4 data-i18n="ld-bio-label">Biography</h4>
+<p class="detail-bio" data-i18n="ld-bio-sherwin">[Placeholder: Sherwin's biography will go here]</p>
+<h4 data-i18n="ld-exp-label">Key Experience</h4>
+<p class="detail-exp" data-i18n="ld-exp-sherwin">[Placeholder: Sherwin's experience will go here]</p>
+<h4 data-i18n="ld-focus-label">Core Focus</h4>
+<p class="detail-focus" data-i18n="ld-focus-sherwin">[Placeholder: Sherwin's core focus will go here]</p>
+</div>
 </div>
 </div>
 </div>
@@ -150,10 +174,31 @@
 <div class="candidate-details">
 <div class="candidate-name" data-i18n="ld-name-aldric" style="font-size: 1.5rem;">Aldric von Reichel</div>
 <div class="candidate-role" data-i18n="ld-role-chief">Chief of Staff</div>
+<div class="hidden-details" style="display: none;">
+<h4 data-i18n="ld-bio-label">Biography</h4>
+<p class="detail-bio" data-i18n="ld-bio-aldric">[Placeholder: Aldric's biography will go here]</p>
+<h4 data-i18n="ld-exp-label">Key Experience</h4>
+<p class="detail-exp" data-i18n="ld-exp-aldric">[Placeholder: Aldric's experience will go here]</p>
+<h4 data-i18n="ld-focus-label">Core Focus</h4>
+<p class="detail-focus" data-i18n="ld-focus-aldric">[Placeholder: Aldric's core focus will go here]</p>
+</div>
 </div>
 </div>
 </div>
 </section>
+<!-- Leadership Details Modal -->
+<div class="modal-backdrop" id="leadership-modal">
+<div class="modal-content" style="max-width: 600px;">
+<button aria-label="Close modal" class="modal-close">×</button>
+<div class="modal-header" style="margin-bottom: 24px;">
+<h3 id="modal-ld-name">Name</h3>
+<p class="candidate-role" data-i18n="auto-index-1" id="modal-ld-role" style="margin-bottom: 0;">Role</p>
+</div>
+<div class="modal-body" id="modal-ld-body" style="text-align: left; line-height: 1.6; color: var(--text-muted);">
+<!-- Dynamic details go here -->
+</div>
+</div>
+</div>
 <footer>
 <div class="footer-container">
 <div class="footer-brand">
@@ -181,6 +226,58 @@
         html.classList.add('dark-theme');
         localStorage.setItem('theme', 'dark');
       }
+    }
+
+    // Leadership Modal Logic
+    const ldModal = document.getElementById('leadership-modal');
+    if (ldModal) {
+      const ldCloseBtn = ldModal.querySelector('.modal-close');
+      const ldNameEl = document.getElementById('modal-ld-name');
+      const ldRoleEl = document.getElementById('modal-ld-role');
+      const ldBodyEl = document.getElementById('modal-ld-body');
+      
+      const ldCards = document.querySelectorAll('.leadership-section .featured-candidate-card');
+      ldCards.forEach(card => {
+        card.addEventListener('click', () => {
+          const name = card.querySelector('.candidate-name').innerHTML;
+          const role = card.querySelector('.candidate-role').innerHTML;
+          const hiddenDetails = card.querySelector('.hidden-details').innerHTML;
+          
+          ldNameEl.innerHTML = name;
+          ldRoleEl.innerHTML = role;
+          
+          // Re-create the structure beautifully inside the modal
+          ldBodyEl.innerHTML = `
+            <div style="border-top: 1px solid var(--border-color); padding-top: 24px;">
+              ${hiddenDetails}
+            </div>
+          `;
+          
+          // Make h4s stand out
+          ldBodyEl.querySelectorAll('h4').forEach(h4 => {
+             h4.style.color = 'var(--text-main)';
+             h4.style.marginTop = '20px';
+             h4.style.marginBottom = '8px';
+             h4.style.fontSize = '1.1rem';
+          });
+          
+          ldModal.classList.add('active');
+          document.body.style.overflow = 'hidden';
+        });
+      });
+      
+      const closeLdModal = () => {
+        ldModal.classList.remove('active');
+        document.body.style.overflow = '';
+      };
+      
+      ldCloseBtn.addEventListener('click', closeLdModal);
+      ldModal.addEventListener('click', (e) => {
+        if (e.target === ldModal) closeLdModal();
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && ldModal.classList.contains('active')) closeLdModal();
+      });
     }
 
     // Scroll-Triggered Reveals
