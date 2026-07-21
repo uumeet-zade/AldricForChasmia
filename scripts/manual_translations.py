@@ -266,11 +266,10 @@ fr = {
     "ld-val-office-mp": "Membre du Parlement",
     "ld-val-office-sherwin": "Gouverneur de Mezata"
 ,
-    'ld-bio-aldric': 'Né le 15 février 2035 à Ventura, Aldric von Reichel est un Membre du Parlement.'
-    'ld-bio-florence': 'Née le 5 avril 2017 à Kazana, Florence Marin est une Ancienne Sénatrice dont l\'expertise législative ancre notre mouvement. En tant que Présidente, elle apporte des années de leadership stratégique au parti, s\'efforçant d\'unifier notre coalition et de défendre la vision plus large d\'une République qui sert véritablement le peuple.',
     'ld-bio-william': 'Né le 15 avril 2028 à Cambria, William Smith est un Membre du Parlement dévoué. Connu pour son plaidoyer inébranlable, il travaille sans relâche sur la scène nationale pour faire avancer la réforme critique du renseignement et s\'assurer que notre système judiciaire soit élargi afin de protéger les droits de chaque citoyen.',
-    'ld-bio-sherwin': 'Né le 17 mai 2024 à Mezata, Sherwin Hildebrand est l\'actuel Gouverneur de Mezata. Avec de solides antécédents exécutifs, son leadership se concentre sur le développement régional pratique, y compris le déploiement ambitieux de nouveaux centres de R&D et du réseau ferroviaire à grande vitesse CapriConnect.',
-    'ld-bio-aldric': 'Né le 15 février 2035 à Ventura, Aldric von Reichel est un Membre du Parlement dynamique. En tant que Chef de Cabinet, il est la force motrice des stratégies de campagne du parti et est profondément engagé dans la mise en œuvre de notre projet d\'impôt sur la fortune pour garantir une économie plus équitable.',
+    'ld-bio-florence': 'Née le 5 avril 2017 à Kazana, Florence Marin est une Ancienne Sénatrice et un membre éminent de la célèbre "Famille Marin". En tant que Leader de l\'Alliance Social-Démocrate depuis 2053, son expertise législative et sa vision stratégique continuent d\'ancrer notre mouvement et d\'unifier notre coalition.',
+    'ld-bio-sherwin': 'Né le 17 mai 2024 à Mezata, Sherwin Hildebrand a été élu Gouverneur de Mezata en 2052. Il a joué un rôle crucial dans la stabilisation des premières phases du Siège du Bâtiment ManMan en dirigeant les forces locales de Mezata, démontrant son fort leadership exécutif et son dévouement à la sécurité régionale.',
+    'ld-bio-aldric': 'Né le 15 février 2035 à Ventura, Aldric von Reichel est un Membre du Parlement et l\'architecte de la Commission de Révision Constitutionnelle. Ancien membre de Res Publica (aujourd\'hui Progressive Caprica), il a rejoint la SDA en 2057 et est depuis l\'un des principaux moteurs de nos stratégies de campagne et du projet d\'impôt sur la fortune.',
 }
 
 # SPANISH (Alcamerian / ac)
@@ -479,11 +478,10 @@ es = {
     "ld-val-office-mp": "Miembro del Parlamento",
     "ld-val-office-sherwin": "Gobernador de Mezata"
 ,
-    'ld-bio-aldric': 'Nacido el 15 de febrero de 2035 en Ventura, Aldric von Reichel es un Miembro del Parlamento.'
-    'ld-bio-florence': 'Nacida el 5 de abril de 2017 en Kazana, Florence Marin es una Ex Senadora cuya experiencia legislativa ancla nuestro movimiento. Como Presidenta, aporta años de liderazgo estratégico al partido, trabajando para unificar nuestra coalición y defender la visión más amplia de una República que sirva verdaderamente al pueblo.',
     'ld-bio-william': 'Nacido el 15 de abril de 2028 en Cambria, William Smith es un dedicado Miembro del Parlamento. Conocido por su firme defensa, trabaja incansablemente en el escenario nacional para impulsar la reforma crítica de inteligencia y garantizar que nuestro sistema judicial se amplíe para proteger los derechos de cada ciudadano.',
-    'ld-bio-sherwin': 'Nacido el 17 de mayo de 2024 en Mezata, Sherwin Hildebrand es el actual Gobernador de Mezata. Con una sólida trayectoria ejecutiva, su liderazgo se centra en el desarrollo regional práctico, incluido el ambicioso lanzamiento de nuevos centros de I+D y la red ferroviaria de alta velocidad CapriConnect.',
-    'ld-bio-aldric': 'Nacido el 15 de febrero de 2035 en Ventura, Aldric von Reichel es un enérgico Miembro del Parlamento. Como nuestro Jefe de Gabinete, es la fuerza impulsora detrás de las estrategias de campaña del partido y está profundamente comprometido con la implementación de nuestro impuesto a la riqueza propuesto para garantizar una economía más justa.',
+    'ld-bio-florence': 'Nacida el 5 de abril de 2017 en Kazana, Florence Marin es una Ex Senadora y una figura destacada de la conocida "Familia Marin". Sirviendo como Líder de la Alianza Socialdemócrata desde 2053, su experiencia legislativa y visión estratégica continúan anclando nuestro movimiento y unificando nuestra coalición.',
+    'ld-bio-sherwin': 'Nacido el 17 de mayo de 2024 en Mezata, Sherwin Hildebrand fue elegido Gobernador de Mezata en 2052. Jugó un papel crucial en la estabilización de las primeras fases del Asedio del Edificio ManMan dirigiendo las fuerzas locales de Mezata, demostrando su fuerte liderazgo ejecutivo y dedicación a la seguridad regional.',
+    'ld-bio-aldric': 'Nacido el 15 de febrero de 2035 en Ventura, Aldric von Reichel es un Miembro del Parlamento y el arquitecto de la Comisión de Revisión Constitucional. Ex miembro de Res Publica (ahora Progresista Caprica), se unió a la SDA en 2057 y desde entonces ha sido una fuerza impulsora detrás de nuestras estrategias de campaña y del impuesto a la riqueza propuesto.',
 }
 
 # DANISH (Ralandic / ra)
@@ -692,11 +690,10 @@ da = {
     "ld-val-office-mp": "Medlem af Parlamentet",
     "ld-val-office-sherwin": "Guvernør af Mezata"
 ,
-    'ld-bio-aldric': 'Født den 15. februar 2035 i Ventura, er Aldric von Reichel et Medlem af Parlamentet.'
-    'ld-bio-florence': 'Født den 5. april 2017 i Kazana, er Florence Marin en Tidligere Senator, hvis lovgivningsmæssige ekspertise forankrer vores bevægelse. Som Forkvinde bringer hun årevis af strategisk lederskab til partiet, og arbejder for at forene vores koalition og fremme den bredere vision om en Republik, der sandt tjener folket.',
     'ld-bio-william': 'Født den 15. april 2028 i Cambria, er William Smith et dedikeret Medlem af Parlamentet. Kendt for sin standhaftige fortalervirksomhed arbejder han utrætteligt på den nationale scene for at fremme kritisk efterretningsreform og sikre, at vores retssystem udvides for at beskytte enhver borgers rettigheder.',
-    'ld-bio-sherwin': 'Født den 17. maj 2024 i Mezata, er Sherwin Hildebrand den nuværende Guvernør af Mezata. Med en stærk eksekutiv baggrund fokuserer hans lederskab på praktisk, regional udvikling, herunder den ambitiøse udrulning af nye R&D-centre og CapriConnect-højhastighedstognetværket.',
-    'ld-bio-aldric': 'Født den 15. februar 2035 i Ventura, er Aldric von Reichel et energisk Medlem af Parlamentet. Som vores Stabschef er han drivkraften bag partiets kampagnestrategier og er dybt engageret i at implementere vores foreslåede formueskat for at sikre en mere retfærdig økonomi.',
+    'ld-bio-florence': 'Født den 5. april 2017 i Kazana, er Florence Marin en Tidligere Senator og et fremtrædende medlem af den velkendte "Marin-familie". Som Leder af den Socialdemokratiske Alliance siden 2053 fortsætter hendes lovgivningsmæssige ekspertise og strategiske vision med at forankre vores bevægelse og forene vores koalition.',
+    'ld-bio-sherwin': 'Født den 17. maj 2024 i Mezata, blev Sherwin Hildebrand valgt som Guvernør af Mezata i 2052. Han spillede en afgørende rolle i stabiliseringen af de tidlige faser af Belejringen af ManMan-bygningen ved at lede de lokale Mezata-styrker, hvilket demonstrerede hans stærke eksekutive lederskab og dedikation til regional sikkerhed.',
+    'ld-bio-aldric': 'Født den 15. februar 2035 i Ventura, er Aldric von Reichel et Medlem af Parlamentet og arkitekten bag Den Forfatningsmæssige Revisionskommission. Som tidligere medlem af Res Publica (nu Progressiv Caprica) tilsluttede han sig SDA i 2057 og har siden været en drivkraft bag vores kampagnestrategier og den foreslåede formueskat.',
 }
 
 # WELSH (Myrati / my)
@@ -905,11 +902,10 @@ cy = {
     "ld-val-office-mp": "Aelod Seneddol",
     "ld-val-office-sherwin": "Llywodraethwr Mezata"
 ,
-    'ld-bio-aldric': 'Ganwyd ar 15 Chwefror 2035 yn Ventura, mae Aldric von Reichel yn Aelod Seneddol.'
-    'ld-bio-florence': 'Ganwyd ar 5 Ebrill 2017 yn Kazana, mae Florence Marin yn Gyn-Seneddwr y mae ei harbenigedd deddfwriaethol yn angori ein mudiad. Fel Cadeirydd, mae hi\'n dod â blynyddoedd o arweinyddiaeth strategol i\'r blaid, gan weithio i uno ein clymblaid ac eiriol dros y weledigaeth ehangach o Weriniaeth sy\'n gwirioneddol wasanaethu\'r bobl.',
     'ld-bio-william': 'Ganwyd ar 15 Ebrill 2028 yng Nghambria, mae William Smith yn Aelod Seneddol ymroddedig. Yn adnabyddus am ei eiriolaeth ddiysgog, mae\'n gweithio\'n ddiflino ar y llwyfan cenedlaethol i wthio am ddiwygiad cudd-wybodaeth hanfodol a sicrhau bod ein system farnwrol yn cael ei hehangu i amddiffyn hawliau pob dinesydd.',
-    'ld-bio-sherwin': 'Ganwyd ar 17 Mai 2024 ym Mezata, Sherwin Hildebrand yw Llywodraethwr presennol Mezata. Gyda hanes gweithredol cryf, mae ei arweinyddiaeth yn canolbwyntio ar ddatblygiad rhanbarthol ymarferol, gan gynnwys cyflwyno canolfannau Ymchwil a Datblygu newydd a rhwydwaith rheilffyrdd cyflym CapriConnect yn uchelgeisiol.',
-    'ld-bio-aldric': 'Ganwyd ar 15 Chwefror 2035 yn Ventura, mae Aldric von Reichel yn Aelod Seneddol egnïol. Fel ein Pennaeth Staff, ef yw\'r grym y tu ôl i strategaethau ymgyrchu\'r blaid ac mae wedi ymrwymo\'n fawr i weithredu ein treth cyfoeth arfaethedig i sicrhau economi decach.',
+    'ld-bio-florence': 'Ganwyd ar 5 Ebrill 2017 yn Kazana, mae Florence Marin yn Gyn-Seneddwr ac yn aelod amlwg o\'r teulu adnabyddus "Teulu Marin". Gan wasanaethu fel Arweinydd y Gynghrair Sosialaidd Ddemocrataidd ers 2053, mae ei harbenigedd deddfwriaethol a\'i gweledigaeth strategol yn parhau i angori ein mudiad ac uno ein clymblaid.',
+    'ld-bio-sherwin': 'Ganwyd ar 17 Mai 2024 ym Mezata, etholwyd Sherwin Hildebrand yn Llywodraethwr Mezata yn 2052. Chwaraeodd ran hanfodol wrth sefydlogi cyfnodau cynnar Gwarchae Adeilad ManMan trwy gyfarwyddo heddluoedd lleol Mezata, gan ddangos ei arweinyddiaeth weithredol gref a\'i ymroddiad i ddiogelwch rhanbarthol.',
+    'ld-bio-aldric': 'Ganwyd ar 15 Chwefror 2035 yn Ventura, mae Aldric von Reichel yn Aelod Seneddol ac yn bensaer y Comisiwn Adolygu Cyfansoddiadol. Yn gyn-aelod o Res Publica (bellach Progressive Caprica), ymunodd â\'r SDA yn 2057 ac ers hynny mae wedi bod yn rym y tu ôl i\'n strategaethau ymgyrchu a\'r dreth cyfoeth arfaethedig.',
 }
 
 # LATVIAN (Austrumish / au)
@@ -1118,11 +1114,10 @@ lv = {
     "ld-val-office-mp": "Parlamenta Deputāts",
     "ld-val-office-sherwin": "Mezatas Gubernators"
 ,
-    'ld-bio-aldric': 'Dzimis 2035. gada 15. februārī Venturā, Aldric von Reichel ir Parlamenta Deputāts.'
-    'ld-bio-florence': 'Dzimusi 2017. gada 5. aprīlī Kazanā, Florence Marin ir Bijušā Senatore, kuras likumdošanas zināšanas nostiprina mūsu kustību. Kā Priekšsēdētāja viņa sniedz partijai gadiem ilgu stratēģisko vadību, strādājot pie mūsu koalīcijas apvienošanas un aizstāvot plašāku vīziju par Republiku, kas patiesi kalpo tautai.',
     'ld-bio-william': 'Dzimis 2028. gada 15. aprīlī Kambrijā, William Smith ir centīgs Parlamenta Deputāts. Pazīstams ar savu nelokāmo atbalstu, viņš nenogurstoši strādā nacionālajā arēnā, lai virzītu kritisko izlūkošanas reformu un nodrošinātu, ka mūsu tiesu sistēma tiek paplašināta, lai aizsargātu katra pilsoņa tiesības.',
-    'ld-bio-sherwin': 'Dzimis 2024. gada 17. maijā Mezatā, Sherwin Hildebrand ir pašreizējais Mezatas Gubernators. Ar spēcīgu izpildvaras pieredzi viņa vadība koncentrējas uz praktisku, reģionālu attīstību, tostarp vērienīgu jaunu R&D centru un CapriConnect ātrgaitas dzelzceļa tīkla ieviešanu.',
-    'ld-bio-aldric': 'Dzimis 2035. gada 15. februārī Venturā, Aldric von Reichel ir enerģisks Parlamenta Deputāts. Kā mūsu Personāla Vadītājs viņš ir partijas kampaņas stratēģiju virzītājspēks un ir dziļi apņēmies ieviest mūsu ierosināto īpašuma nodokli, lai nodrošinātu taisnīgāku ekonomiku.',
+    'ld-bio-florence': 'Dzimusi 2017. gada 5. aprīlī Kazanā, Florence Marin ir Bijušā Senatore un labi pazīstamās "Marinu ģimenes" ievērojama pārstāve. Kopš 2053. gada kalpojot kā Sociāldemokrātiskās Alianses Līdere, viņas likumdošanas zināšanas un stratēģiskais redzējums turpina nostiprināt mūsu kustību un apvienot mūsu koalīciju.',
+    'ld-bio-sherwin': 'Dzimis 2024. gada 17. maijā Mezatā, Sherwin Hildebrand tika ievēlēts par Mezatas Gubernatoru 2052. gadā. Viņam bija izšķiroša loma ManMan Ēkas Ielenkuma agrīno fāžu stabilizēšanā, vadot vietējos Mezatas spēkus, tādējādi apliecinot savu spēcīgo izpildvaras vadību un uzticību reģionālajai drošībai.',
+    'ld-bio-aldric': 'Dzimis 2035. gada 15. februārī Venturā, Aldric von Reichel ir Parlamenta Deputāts un Konstitucionālās Pārskatīšanas Komisijas arhitekts. Bijušais Res Publica (tagad Zināma kā Progresīvā Kaprika) loceklis, viņš pievienojās SDA 2057. gadā un kopš tā laika ir bijis dzinējspēks mūsu kampaņas stratēģijām un ierosinātajam īpašuma nodoklim.',
 }
 
 # GERMAN (Leislandic / le)
@@ -1363,9 +1358,8 @@ for code, d in lang_dicts.items():
     "ld-val-office-mp": "Parlamentsmitglied",
     "ld-val-office-sherwin": "Gouverneur von Mezata"
 ,
-    'ld-bio-aldric': 'Geboren am 15. Februar 2035 in Ventura, ist Aldric von Reichel ein Parlamentsmitglied.'
-    'ld-bio-florence': 'Geboren am 5. April 2017 in Kazana, ist Florence Marin eine Ehemalige Senatorin, deren legislative Expertise unsere Bewegung verankert. Als Vorsitzende bringt sie jahrelange strategische Führung in die Partei ein und arbeitet daran, unsere Koalition zu vereinen und die breitere Vision einer Republik zu fördern, die wahrhaftig dem Volk dient.',
     'ld-bio-william': 'Geboren am 15. April 2028 in Cambria, ist William Smith ein engagiertes Parlamentsmitglied. Bekannt für sein unerschütterliches Eintreten, arbeitet er unermüdlich auf nationaler Ebene, um eine kritische Geheimdienstreform voranzutreiben und sicherzustellen, dass unser Justizsystem erweitert wird, um die Rechte jedes Bürgers zu schützen.',
-    'ld-bio-sherwin': 'Geboren am 17. Mai 2024 in Mezata, ist Sherwin Hildebrand der aktuelle Gouverneur von Mezata. Mit einer starken exekutiven Erfolgsbilanz konzentriert sich seine Führung auf die praktische, regionale Entwicklung, einschließlich der ehrgeizigen Einführung neuer F&E-Zentren und des Hochgeschwindigkeits-Schienennetzes CapriConnect.',
-    'ld-bio-aldric': 'Geboren am 15. Februar 2035 in Ventura, ist Aldric von Reichel ein energiegeladenes Parlamentsmitglied. Als unser Stabschef ist er die treibende Kraft hinter den Kampagnenstrategien der Partei und setzt sich zutiefst für die Umsetzung unserer vorgeschlagenen Vermögenssteuer ein, um eine fairere Wirtschaft zu gewährleisten.',
+    'ld-bio-florence': 'Geboren am 5. April 2017 in Kazana, ist Florence Marin eine Ehemalige Senatorin und ein prominentes Mitglied der bekannten "Familie Marin". Sie dient seit 2053 als Vorsitzende der Sozialdemokratischen Allianz und ihre legislative Expertise sowie ihre strategische Vision verankern weiterhin unsere Bewegung und vereinen unsere Koalition.',
+    'ld-bio-sherwin': 'Geboren am 17. Mai 2024 in Mezata, wurde Sherwin Hildebrand 2052 zum Gouverneur von Mezata gewählt. Er spielte eine entscheidende Rolle bei der Stabilisierung der frühen Phasen der Belagerung des ManMan-Gebäudes, indem er die lokalen Mezata-Streitkräfte leitete, was seine starke exekutive Führung und sein Engagement für die regionale Sicherheit unter Beweis stellte.',
+    'ld-bio-aldric': 'Geboren am 15. Februar 2035 in Ventura, ist Aldric von Reichel ein Parlamentsmitglied und der Architekt der Verfassungsprüfungskommission. Als ehemaliges Mitglied der Res Publica (jetzt Progressive Caprica) trat er der SDA 2057 bei und ist seitdem eine treibende Kraft hinter unseren Kampagnenstrategien und der vorgeschlagenen Vermögenssteuer.',
 } translated keys")
